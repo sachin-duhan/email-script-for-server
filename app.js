@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 const email = require('./routes/email');
-app.use('email', email);
+app.use('/email', email);
 
 // error handling
 app.use((req, res, next) => {
