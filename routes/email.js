@@ -2,7 +2,7 @@ const express = require('express'),
     Router = express.Router();
 
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey('YOU API KEY!');
 
 Router.post('/', (req, res) => {
     const msg = {
